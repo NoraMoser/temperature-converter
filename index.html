@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-
+	<title>Temp</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-			Input a Temp: <input type="number" id="userInput" value="10"><br>
-
+			Input a Temp: <input type="number" id="userInput" value="0"><br>
+			
 			<input type="radio" name="tempConvert" value="1" id="celsius"/>Celsius<br>
 			<input type="radio" name="tempConvert" value="2" id="fahrenheit"/>Fahrenheit<br>
 			
 			 <input id="submitTemperature" type="submit" value="Convert Temperature"/>
-			 <button id="resetTemperature">Reset</button>
-
+			 <input type="reset" value="Reset">
 
 		<div id="convertedTemp"></div>
 
 <script type="text/javascript" src="converter.js"></script>
 </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="temp.css">
+</head>
+<body>
+    
+    <section>
+        
+        <h2>Input:</h2>
+        <form>
+            <input type="number" id="sayIn" placeholder="Starting Temp in deg."><br>
+            <input id="celsius" type="radio" name="temperature" value="celsius" checked>Convert to Celsius<br>
+            <input id="fahrenheit" type="radio" name="temperature" value="fahrenheit" checked>Convert to Fahrenheit<br>
+            <button id="subBut">Submit</button>
+            <input type="reset" value="Clear">
+        </form>      
+
+        <h3>Output:</h3>
+        <p id="sayOut"></p>
+        
+    </section>
+
+
+
+
+    
+
+<script type="text/javascript" src="temp-converter.js"></script>
+</html> -->
